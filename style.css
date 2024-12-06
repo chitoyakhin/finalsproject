@@ -1,0 +1,72 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: 'Verdana', sans-serif;
+    color: #ECD5C3;
+    background-color: #1D313C;
+    background-image: url('imgs/spacebg.jpg'); /* background */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Header */
+.header {
+    background: #397654;
+    color: #ECD5C3;
+    padding: 50px 20px;
+    text-align: center;
+}
+.header .logo {
+    width: 100px;
+    height: auto;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #4FA4AB;
+}
+.navbar-brand {
+    color: #ECD5C3 !important;
+    font-weight: bold;
+}
+.nav-link {
+    color: #ECD5C3 !important;
+}
+.nav-link:hover {
+    color: #F6743A !important;
+}
+
+/* About Section */
+.about {
+    background: rgba(73, 149, 164, 0.1); /* Light teal overlay */
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+/* Featured Section */
+.featured h2 {
+    color: #F6743A;
+}
+.card {
+    background: #397654;
+    border: none;
+    color: #ECD5C3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.card img {
+    height: 300px;
+    object-fit: cover;
+}
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+/* Footer */
+.footer {
+    background-color: #1D313C;
+    color: #ECD5C3;
+    padding: 10px;
+    text-align: center;
+}
